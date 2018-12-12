@@ -17,6 +17,18 @@
 		F893BD6B21C1532A009E6E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F893BD6921C1532A009E6E8D /* LaunchScreen.storyboard */; };
 		F893BD7621C1532A009E6E8D /* PM_Sub_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD7521C1532A009E6E8D /* PM_Sub_StudyTests.swift */; };
 		F893BD8121C1532A009E6E8D /* PM_Sub_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD8021C1532A009E6E8D /* PM_Sub_StudyUITests.swift */; };
+		F893BD9021C1572B009E6E8D /* RSStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD8F21C1572B009E6E8D /* RSStore.swift */; };
+		F893BD9221C157A3009E6E8D /* SurveyQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9121C157A3009E6E8D /* SurveyQueueManager.swift */; };
+		F893BD9521C15906009E6E8D /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9421C15906009E6E8D /* Survey.swift */; };
+		F893BD9721C15A25009E6E8D /* StandardizedSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9621C15A25009E6E8D /* StandardizedSurvey.swift */; };
+		F893BD9921C15A4F009E6E8D /* WellbeingSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9821C15A4F009E6E8D /* WellbeingSurvey.swift */; };
+		F893BD9B21C15AAF009E6E8D /* SideEffectSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9A21C15AAF009E6E8D /* SideEffectSurvey.swift */; };
+		F893BD9D21C15B24009E6E8D /* SurveyTimesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9C21C15B24009E6E8D /* SurveyTimesManager.swift */; };
+		F893BD9F21C15B51009E6E8D /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BD9E21C15B51009E6E8D /* NotificationsManager.swift */; };
+		F893BDA221C15C26009E6E8D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDA121C15C26009E6E8D /* IntroViewController.swift */; };
+		F893BDA521C15CC3009E6E8D /* IntroStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */; };
+		F893BDA721C15DEE009E6E8D /* LS2Client.plist in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA621C15DED009E6E8D /* LS2Client.plist */; };
+		F893BDAA21C15F22009E6E8D /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA921C15F22009E6E8D /* login.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +71,18 @@
 		F893BD7C21C1532A009E6E8D /* PM Sub StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PM Sub StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F893BD8021C1532A009E6E8D /* PM_Sub_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM_Sub_StudyUITests.swift; sourceTree = "<group>"; };
 		F893BD8221C1532A009E6E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F893BD8F21C1572B009E6E8D /* RSStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSStore.swift; sourceTree = "<group>"; };
+		F893BD9121C157A3009E6E8D /* SurveyQueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQueueManager.swift; sourceTree = "<group>"; };
+		F893BD9421C15906009E6E8D /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		F893BD9621C15A25009E6E8D /* StandardizedSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardizedSurvey.swift; sourceTree = "<group>"; };
+		F893BD9821C15A4F009E6E8D /* WellbeingSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingSurvey.swift; sourceTree = "<group>"; };
+		F893BD9A21C15AAF009E6E8D /* SideEffectSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideEffectSurvey.swift; sourceTree = "<group>"; };
+		F893BD9C21C15B24009E6E8D /* SurveyTimesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTimesManager.swift; sourceTree = "<group>"; };
+		F893BD9E21C15B51009E6E8D /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		F893BDA121C15C26009E6E8D /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IntroStoryBoard.storyboard; sourceTree = "<group>"; };
+		F893BDA621C15DED009E6E8D /* LS2Client.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LS2Client.plist; sourceTree = "<group>"; };
+		F893BDA921C15F22009E6E8D /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +161,12 @@
 		F893BD5F21C15328009E6E8D /* PM Sub Study */ = {
 			isa = PBXGroup;
 			children = (
+				F893BDA821C15EDD009E6E8D /* json */,
+				F893BDA621C15DED009E6E8D /* LS2Client.plist */,
+				F893BDA321C15C63009E6E8D /* Storyboards */,
+				F893BDA021C15BE8009E6E8D /* ViewControllers */,
+				F893BD9321C158D2009E6E8D /* Models */,
+				F893BD8E21C15705009E6E8D /* StateManagers */,
 				F893BD6021C15328009E6E8D /* AppDelegate.swift */,
 				F893BD6221C15328009E6E8D /* ViewController.swift */,
 				F893BD6421C15328009E6E8D /* Main.storyboard */,
@@ -163,6 +193,52 @@
 				F893BD8221C1532A009E6E8D /* Info.plist */,
 			);
 			path = "PM Sub StudyUITests";
+			sourceTree = "<group>";
+		};
+		F893BD8E21C15705009E6E8D /* StateManagers */ = {
+			isa = PBXGroup;
+			children = (
+				F893BD8F21C1572B009E6E8D /* RSStore.swift */,
+				F893BD9121C157A3009E6E8D /* SurveyQueueManager.swift */,
+				F893BD9C21C15B24009E6E8D /* SurveyTimesManager.swift */,
+				F893BD9E21C15B51009E6E8D /* NotificationsManager.swift */,
+			);
+			path = StateManagers;
+			sourceTree = "<group>";
+		};
+		F893BD9321C158D2009E6E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F893BD9421C15906009E6E8D /* Survey.swift */,
+				F893BD9621C15A25009E6E8D /* StandardizedSurvey.swift */,
+				F893BD9821C15A4F009E6E8D /* WellbeingSurvey.swift */,
+				F893BD9A21C15AAF009E6E8D /* SideEffectSurvey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F893BDA021C15BE8009E6E8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F893BDA121C15C26009E6E8D /* IntroViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F893BDA321C15C63009E6E8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F893BDA821C15EDD009E6E8D /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F893BDA921C15F22009E6E8D /* login.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +350,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F893BD6B21C1532A009E6E8D /* LaunchScreen.storyboard in Resources */,
+				F893BDA721C15DEE009E6E8D /* LS2Client.plist in Resources */,
 				F893BD6821C1532A009E6E8D /* Assets.xcassets in Resources */,
+				F893BDA521C15CC3009E6E8D /* IntroStoryBoard.storyboard in Resources */,
 				F893BD6621C15328009E6E8D /* Main.storyboard in Resources */,
+				F893BDAA21C15F22009E6E8D /* login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +499,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F893BD6321C15328009E6E8D /* ViewController.swift in Sources */,
+				F893BD9D21C15B24009E6E8D /* SurveyTimesManager.swift in Sources */,
+				F893BD9B21C15AAF009E6E8D /* SideEffectSurvey.swift in Sources */,
+				F893BD9921C15A4F009E6E8D /* WellbeingSurvey.swift in Sources */,
+				F893BD9221C157A3009E6E8D /* SurveyQueueManager.swift in Sources */,
+				F893BD9521C15906009E6E8D /* Survey.swift in Sources */,
 				F893BD6121C15328009E6E8D /* AppDelegate.swift in Sources */,
+				F893BD9721C15A25009E6E8D /* StandardizedSurvey.swift in Sources */,
+				F893BDA221C15C26009E6E8D /* IntroViewController.swift in Sources */,
+				F893BD9F21C15B51009E6E8D /* NotificationsManager.swift in Sources */,
+				F893BD9021C1572B009E6E8D /* RSStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

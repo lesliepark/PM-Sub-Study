@@ -1,0 +1,19 @@
+{
+    "type": "recurring",
+    "identifier": "login",
+    "title": "login",
+    "guid": "login-1",
+    "activity": {
+        "type": "elementList",
+        "identifier": "LS2Login",
+        "elements": [
+            {
+                "identifier": "logIn",
+                "type": "LS2Login",
+                "title": "Sign In",
+                "text": "Please enter your study credentials to sign in."
+            }
+        ]
+    },
+    "resultTransforms": []
+}
