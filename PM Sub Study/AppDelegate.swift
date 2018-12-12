@@ -80,7 +80,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
         self.store.setValueInState(value: true as NSSecureCoding, forKey: "shouldDoSpot")
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let storyboard = UIStoryboard(name: "Home", bundle: Bundle.main)
         let vc = storyboard.instantiateInitialViewController()
         self.transition(toRootViewController: vc!, animated: true)
     }
@@ -169,7 +169,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     @available(iOS 10.0, *)
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         self.store.setValueInState(value: true as NSSecureCoding, forKey: "shouldDoSpot")
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let storyboard = UIStoryboard(name: "Home", bundle: Bundle.main)
         let vc = storyboard.instantiateInitialViewController()
         self.transition(toRootViewController: vc!, animated: true)
         
@@ -218,19 +218,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             self.transition(toRootViewController: vc!, animated: animated)
         }
         
-        
-        
-        //        if UserDefaults.standard.bool(forKey: "PassCreated"){
-        //            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        //            let vc = storyboard.instantiateInitialViewController()
-        //            self.transition(toRootViewController: vc!, animated: animated)
-        //        }
-        //        else {
-        //            let storyboard = UIStoryboard(name: "PasscodeStoryboard", bundle: Bundle.main)
-        //            let vc = storyboard.instantiateInitialViewController()
-        //            self.transition(toRootViewController: vc!, animated: animated)
-        //
-        //        }
         
         
     }

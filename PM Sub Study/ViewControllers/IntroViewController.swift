@@ -58,13 +58,6 @@ class IntroViewController: UIViewController {
                             appDelegate.transition(toRootViewController: vc!, animated: true)
                         }
                         
-                        //ELSE (THEY ARE ONBOARDED), GO STRAIGHT HOME
-                        //                    DispatchQueue.main.async {
-                        //                        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-                        //                        let vc = storyboard.instantiateInitialViewController()
-                        //                        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-                        //                        appDelegate.transition(toRootViewController: vc!, animated: true)
-                        //                    }
                     }
                     else {
                         NSLog(String(describing:error))

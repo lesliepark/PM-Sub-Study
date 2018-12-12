@@ -53,7 +53,7 @@ class OnboardingViewController: UIViewController {
         }
         else {
             print("User is already onboarded")
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let storyboard = UIStoryboard(name: "Home", bundle: Bundle.main)
             let vc = storyboard.instantiateInitialViewController()
             appDelegate?.transition(toRootViewController: vc!, animated: true)
         }
