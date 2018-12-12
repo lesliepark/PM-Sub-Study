@@ -6,6 +6,8 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -15,11 +17,25 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires your camera</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app requires collecting certain health data</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app requires collecting updates on certain health data</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is used to help identify when you enter and leave important places.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location is used to help identify when you enter and leave important places.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires your microphone</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app requires detection of your motion</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

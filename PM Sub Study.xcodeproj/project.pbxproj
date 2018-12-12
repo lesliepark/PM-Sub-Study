@@ -29,6 +29,18 @@
 		F893BDA521C15CC3009E6E8D /* IntroStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */; };
 		F893BDA721C15DEE009E6E8D /* LS2Client.plist in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA621C15DED009E6E8D /* LS2Client.plist */; };
 		F893BDAA21C15F22009E6E8D /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = F893BDA921C15F22009E6E8D /* login.json */; };
+		F893BDAC21C1637F009E6E8D /* OnboardingSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F893BDAB21C1637F009E6E8D /* OnboardingSB.storyboard */; };
+		F893BDAE21C163C2009E6E8D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDAD21C163C2009E6E8D /* OnboardingViewController.swift */; };
+		F893BDB021C164A0009E6E8D /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDAF21C164A0009E6E8D /* ConsentViewController.swift */; };
+		F893BDB321C16529009E6E8D /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDB221C16529009E6E8D /* ConsentTask.swift */; };
+		F893BDB521C16543009E6E8D /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDB421C16543009E6E8D /* ConsentDocument.swift */; };
+		F893BDB721C16678009E6E8D /* GeofenceSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDB621C16678009E6E8D /* GeofenceSetViewController.swift */; };
+		F893BDB921C166C7009E6E8D /* GeofenceLocationsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDB821C166C7009E6E8D /* GeofenceLocationsTask.swift */; };
+		F893BDBB21C1672E009E6E8D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDBA21C1672E009E6E8D /* LocationManager.swift */; };
+		F893BDBD21C167D6009E6E8D /* SurveyTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDBC21C167D6009E6E8D /* SurveyTimesViewController.swift */; };
+		F893BDBF21C1680E009E6E8D /* SetSurveyTimeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDBE21C1680E009E6E8D /* SetSurveyTimeTask.swift */; };
+		F893BDC121C168A8009E6E8D /* EligibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDC021C168A8009E6E8D /* EligibilityViewController.swift */; };
+		F893BDC321C168E4009E6E8D /* EligibilityTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893BDC221C168E4009E6E8D /* EligibilityTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +95,18 @@
 		F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IntroStoryBoard.storyboard; sourceTree = "<group>"; };
 		F893BDA621C15DED009E6E8D /* LS2Client.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LS2Client.plist; sourceTree = "<group>"; };
 		F893BDA921C15F22009E6E8D /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		F893BDAB21C1637F009E6E8D /* OnboardingSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnboardingSB.storyboard; sourceTree = "<group>"; };
+		F893BDAD21C163C2009E6E8D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F893BDAF21C164A0009E6E8D /* ConsentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
+		F893BDB221C16529009E6E8D /* ConsentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		F893BDB421C16543009E6E8D /* ConsentDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		F893BDB621C16678009E6E8D /* GeofenceSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceSetViewController.swift; sourceTree = "<group>"; };
+		F893BDB821C166C7009E6E8D /* GeofenceLocationsTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceLocationsTask.swift; sourceTree = "<group>"; };
+		F893BDBA21C1672E009E6E8D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F893BDBC21C167D6009E6E8D /* SurveyTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTimesViewController.swift; sourceTree = "<group>"; };
+		F893BDBE21C1680E009E6E8D /* SetSurveyTimeTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSurveyTimeTask.swift; sourceTree = "<group>"; };
+		F893BDC021C168A8009E6E8D /* EligibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EligibilityViewController.swift; sourceTree = "<group>"; };
+		F893BDC221C168E4009E6E8D /* EligibilityTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EligibilityTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +185,7 @@
 		F893BD5F21C15328009E6E8D /* PM Sub Study */ = {
 			isa = PBXGroup;
 			children = (
+				F893BDB121C164D0009E6E8D /* Tasks */,
 				F893BDA821C15EDD009E6E8D /* json */,
 				F893BDA621C15DED009E6E8D /* LS2Client.plist */,
 				F893BDA321C15C63009E6E8D /* Storyboards */,
@@ -202,6 +227,7 @@
 				F893BD9121C157A3009E6E8D /* SurveyQueueManager.swift */,
 				F893BD9C21C15B24009E6E8D /* SurveyTimesManager.swift */,
 				F893BD9E21C15B51009E6E8D /* NotificationsManager.swift */,
+				F893BDBA21C1672E009E6E8D /* LocationManager.swift */,
 			);
 			path = StateManagers;
 			sourceTree = "<group>";
@@ -221,6 +247,11 @@
 			isa = PBXGroup;
 			children = (
 				F893BDA121C15C26009E6E8D /* IntroViewController.swift */,
+				F893BDAD21C163C2009E6E8D /* OnboardingViewController.swift */,
+				F893BDAF21C164A0009E6E8D /* ConsentViewController.swift */,
+				F893BDB621C16678009E6E8D /* GeofenceSetViewController.swift */,
+				F893BDBC21C167D6009E6E8D /* SurveyTimesViewController.swift */,
+				F893BDC021C168A8009E6E8D /* EligibilityViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -229,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				F893BDA421C15CC3009E6E8D /* IntroStoryBoard.storyboard */,
+				F893BDAB21C1637F009E6E8D /* OnboardingSB.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -239,6 +271,18 @@
 				F893BDA921C15F22009E6E8D /* login.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		F893BDB121C164D0009E6E8D /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F893BDB221C16529009E6E8D /* ConsentTask.swift */,
+				F893BDB421C16543009E6E8D /* ConsentDocument.swift */,
+				F893BDB821C166C7009E6E8D /* GeofenceLocationsTask.swift */,
+				F893BDBE21C1680E009E6E8D /* SetSurveyTimeTask.swift */,
+				F893BDC221C168E4009E6E8D /* EligibilityTask.swift */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +397,7 @@
 				F893BDA721C15DEE009E6E8D /* LS2Client.plist in Resources */,
 				F893BD6821C1532A009E6E8D /* Assets.xcassets in Resources */,
 				F893BDA521C15CC3009E6E8D /* IntroStoryBoard.storyboard in Resources */,
+				F893BDAC21C1637F009E6E8D /* OnboardingSB.storyboard in Resources */,
 				F893BD6621C15328009E6E8D /* Main.storyboard in Resources */,
 				F893BDAA21C15F22009E6E8D /* login.json in Resources */,
 			);
@@ -500,15 +545,26 @@
 			files = (
 				F893BD6321C15328009E6E8D /* ViewController.swift in Sources */,
 				F893BD9D21C15B24009E6E8D /* SurveyTimesManager.swift in Sources */,
+				F893BDBF21C1680E009E6E8D /* SetSurveyTimeTask.swift in Sources */,
+				F893BDB721C16678009E6E8D /* GeofenceSetViewController.swift in Sources */,
 				F893BD9B21C15AAF009E6E8D /* SideEffectSurvey.swift in Sources */,
+				F893BDB321C16529009E6E8D /* ConsentTask.swift in Sources */,
+				F893BDB521C16543009E6E8D /* ConsentDocument.swift in Sources */,
 				F893BD9921C15A4F009E6E8D /* WellbeingSurvey.swift in Sources */,
 				F893BD9221C157A3009E6E8D /* SurveyQueueManager.swift in Sources */,
+				F893BDBB21C1672E009E6E8D /* LocationManager.swift in Sources */,
+				F893BDC321C168E4009E6E8D /* EligibilityTask.swift in Sources */,
+				F893BDB921C166C7009E6E8D /* GeofenceLocationsTask.swift in Sources */,
 				F893BD9521C15906009E6E8D /* Survey.swift in Sources */,
 				F893BD6121C15328009E6E8D /* AppDelegate.swift in Sources */,
+				F893BDC121C168A8009E6E8D /* EligibilityViewController.swift in Sources */,
+				F893BDAE21C163C2009E6E8D /* OnboardingViewController.swift in Sources */,
 				F893BD9721C15A25009E6E8D /* StandardizedSurvey.swift in Sources */,
 				F893BDA221C15C26009E6E8D /* IntroViewController.swift in Sources */,
+				F893BDB021C164A0009E6E8D /* ConsentViewController.swift in Sources */,
 				F893BD9F21C15B51009E6E8D /* NotificationsManager.swift in Sources */,
 				F893BD9021C1572B009E6E8D /* RSStore.swift in Sources */,
+				F893BDBD21C167D6009E6E8D /* SurveyTimesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
