@@ -12,7 +12,7 @@
         <!--Intro View Controller-->
         <scene sceneID="qcn-49-H4S">
             <objects>
-                <viewController id="zte-Fk-2LE" customClass="IntroViewController" customModule="PM_PRO_J" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zte-Fk-2LE" customClass="IntroViewController" customModule="PM_Sub_Study" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t3W-DH-wH7"/>
                         <viewControllerLayoutGuide type="bottom" id="aEA-Cy-orR"/>
@@ -38,10 +38,6 @@
                                     <action selector="login:" destination="zte-Fk-2LE" eventType="touchUpInside" id="gUy-QT-Dsb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cornell Tech Logo" translatesAutoresizingMaskIntoConstraints="NO" id="chf-TY-nsb">
-                                <rect key="frame" x="230" y="57" width="145" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Research for Precision Medicine Study" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSq-H8-gSc">
                                 <rect key="frame" x="-64" y="238" width="503" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -60,10 +56,6 @@
                                     <segue destination="gdV-z9-shf" kind="show" id="Ehr-YJ-XwW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WeillCornellLogo" translatesAutoresizingMaskIntoConstraints="NO" id="whU-wE-mWd">
-                                <rect key="frame" x="6" y="57" width="145" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A0X-AC-NW4"/>
@@ -97,7 +89,7 @@
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" adjustable="YES"/>
                                         </accessibility>
-                                        <mutableString key="text">This is the mobile app for the "Research for Precision Medicine – Exploring Retrospective and Prospective 
+                                        <string key="text">This is the mobile app for the "Research for Precision Medicine – Exploring Retrospective and Prospective 
 Patient-Generated Data in Precision Medicine Sub Study."
 
 The purpose of this study is to understand whether using a mobile health application to collect patient-centric data will help patients and physicians to check the accuracy of patients’ reporting, to better evaluate performance status, and to track changes in treatment and care. We aim to explore new methods for monitoring and measuring patients’ performance status, changes in clinical status and treatment across providers, and outcomes. These new methods include both prospective collection of Patient Reported Outcomes (PROs), deployed via mobile devices, and retrospective data collection deployed via patient-shared digital histories.
@@ -112,7 +104,7 @@ The secondary objective(s) of this study include:
 The exploratory objective(s) of this study include:
 - Correlating genomic data with the comprehensive clinical data collected (e.g., treatment responses, toxicity, outcomes)
 
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -149,8 +141,6 @@ The exploratory objective(s) of this study include:
         </scene>
     </scenes>
     <resources>
-        <image name="Cornell Tech Logo" width="500" height="188"/>
-        <image name="WeillCornellLogo" width="1023.75" height="368.25"/>
         <image name="bridge_bgrnd" width="604" height="461"/>
     </resources>
 </document>
