@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -28,9 +28,9 @@
 	<string>This app requires collecting certain health data</string>
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>This app requires collecting updates on certain health data</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location is used to help identify when you enter and leave important places.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location is used to help identify when you enter and leave important places.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Your location is used to help identify when you enter and leave important places.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app requires your microphone</string>

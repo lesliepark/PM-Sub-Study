@@ -47,7 +47,7 @@ public var WellBeingSurveyTask: ORKOrderedTask {
     
     for (index, statement) in wbStatements.enumerated() {
         
-        print("Item \(index + 1): \(statement)")
+        //print("Item \(index + 1): \(statement)")
         let statementIdentifier = "survey.wbStatement \(index + 1)"
         
         let wbStep = ORKQuestionStep(identifier: statementIdentifier)

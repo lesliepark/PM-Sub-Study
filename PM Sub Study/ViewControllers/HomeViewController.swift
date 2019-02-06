@@ -62,6 +62,9 @@ class HomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         //retrieve the surveys from the stored surveys
         self.sqMgr.updateSurveyQueue() //make sure it's up to date
+        if (outstandingSurveys != nil) {
+            outstandingSurveys.removeAll()
+        }
         outstandingSurveys = self.sqMgr.getOutstandingSurveys()
         tableView.reloadData()
     }
@@ -82,45 +85,88 @@ class HomeViewController: UIViewController {
         
     }
     
-    @objc func surveyClicked(survey : Survey ){ //figure out how to pass survey parameter thru selector
-        curSurveyId = String(UInt(bitPattern: ObjectIdentifier(survey)))
-        var surveyTVC : ORKTaskViewController!
-        if (survey.Name == "Standardized Survey") {
-            surveyTVC = ORKTaskViewController(task: StandardSurveyTask, taskRun: nil)
+    func topMostController() -> UIViewController {
+        var topController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
+        while (topController.presentedViewController != nil) {
+            topController = topController.presentedViewController!
         }
-        else if (survey.Name == "Well-Being Survey") {
-            surveyTVC = ORKTaskViewController(task: WellBeingSurveyTask, taskRun: nil)
-        }
-        else if (survey.Name == "Side-Effects Survey") {
-            surveyTVC = ORKTaskViewController(task: SideEffectSurveyTask, taskRun: nil)
-        }
-        
-        surveyTVC.delegate = self
-        present(surveyTVC, animated: true, completion: nil)
+        return topController
     }
+    
+    func isOutstanding(surveyName: NSString) -> Bool {
+        var isOutstanding = false
+        for survey in outstandingSurveys {
+            if (survey.Name == surveyName) {
+                isOutstanding = true
+                break
+            }
+        }
+        return isOutstanding
+    }
+    
+    //NOT USED NOW
+//    @objc func surveyClicked(survey : Survey ){ //figure out how to pass survey parameter thru selector
+//        curSurveyId = String(UInt(bitPattern: ObjectIdentifier(survey)))
+//        var surveyTVC : ORKTaskViewController!
+//
+////        if var topController = UIApplication.shared.keyWindow?.rootViewController {
+////            while let presentedViewController = topController.presentedViewController {
+////                topController = presentedViewController
+////            }
+////
+////            // topController should now be your topmost view controller
+////        }
+//
+//        if (survey.Name == "Standardized Survey") {
+//            surveyTVC = ORKTaskViewController(task: StandardSurveyTask, taskRun: nil)
+//        }
+//        else if (survey.Name == "Well-Being Survey") {
+//            surveyTVC = ORKTaskViewController(task: WellBeingSurveyTask, taskRun: nil)
+//        }
+//        else if (survey.Name == "Side-Effects Survey") {
+//            surveyTVC = ORKTaskViewController(task: SideEffectSurveyTask, taskRun: nil)
+//        }
+//        print("SELF")
+//        print(self)
+//        surveyTVC.delegate = self
+//        present(surveyTVC, animated: true, completion: nil)
+//    }
     
     @objc func standardSurveyClicked(sender: UIButton)
     {
+        
         curSurveyName = "Standardized Survey"
+        if (!isOutstanding(surveyName: "Standardized Survey")) {
+            return
+        }
+        let topVC = topMostController()
         let taskViewController = ORKTaskViewController(task: StandardSurveyTask, taskRun: nil)
         taskViewController.delegate = self
-        present(taskViewController, animated: true, completion: nil)
+        topVC.present(taskViewController, animated: true, completion: nil)
     }
     
     @objc func wbSurveyClicked()
     {
         curSurveyName = "Well-Being Survey"
+        if (!isOutstanding(surveyName: "Well-Being Survey")) {
+            return
+        }
+        let topVC = topMostController()
         let taskViewController = ORKTaskViewController(task: WellBeingSurveyTask, taskRun: nil)
         taskViewController.delegate = self
-        present(taskViewController, animated: true, completion: nil)
+        topVC.present(taskViewController, animated: true, completion: nil)
     }
     
     @objc func seSurveyClicked()
     {
         curSurveyName = "Side-Effects Survey"
+        if (!isOutstanding(surveyName: "Side-Effects Survey")) {
+            return
+        }
+        let topVC = topMostController()
         let taskViewController = ORKTaskViewController(task: SideEffectSurveyTask, taskRun: nil)
         taskViewController.delegate = self
-        present(taskViewController, animated: true, completion: nil)
+        topVC.present(taskViewController, animated: true, completion: nil)
     }
     
     
@@ -130,14 +176,14 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //        print("Table View func1 executed")
+        print(outstandingSurveys.count)
         return outstandingSurveys.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //        print("Table View func2 executed")
+        print(outstandingSurveys[indexPath.row])
         let survey = outstandingSurveys[indexPath.row]
-        
-        
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = DateFormatter.Style.short
@@ -152,8 +198,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         cell.surveyDate.text = displayDate
         cell.surveyID = String(UInt(bitPattern: ObjectIdentifier(survey)))
         
-        print("Unique String: ")
-        print(cell.surveyID)
+        //print("Unique String: ")
+        //print(cell.surveyID)
         if(surveyName == "Standardized Survey") {
             cell.surveyButton.addTarget(self, action: #selector(HomeViewController.standardSurveyClicked), for: .touchUpInside)
         }

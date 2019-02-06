@@ -43,7 +43,7 @@ public var SideEffectSurveyTask: ORKOrderedTask {
     
     for (index, statement) in seStatements.enumerated() {
         
-        print("Item \(index + 1): \(statement)")
+        //print("Item \(index + 1): \(statement)")
         let statementIdentifier = "survey.seStatement \(index + 1)"
         
         
