@@ -16,18 +16,20 @@ public var SideEffectSurveyTask: ORKOrderedTask {
     instructionStep.text = "The following statements are statements that other people with your illness have said are important.  Select the answer that describes your agreement with each statement, as it applies to TODAY."
     steps += [instructionStep]
     
-    let seStatements = ["I am losing weight.",
-                        "I have a good appetite.",
-                        "I have aches and pains that bother me.",
-                        "I have certain parts of my body where I experience pain.",
-                        "My pain keeps me from doing things I want to do.",
-                        "I am satisfied with my present comfort level.",
-                        "I am able to feel like a man.",
-                        "I have trouble moving my bowels.",
-                        "I have difficulty urinating.",
-                        "I urinate more frequently than usual.",
-                        "My problems with urinating limit my activities.",
-                        "I am able to have and maintain an erection."]
+    
+    //tuples of ('question string', isOptional bool)
+    let seStatements = [("I am losing weight.", false),
+                        ("I have a good appetite.", false),
+                        ("I have aches and pains that bother me.", false),
+                        ("I have certain parts of my body where I experience pain.", false),
+                        ("My pain keeps me from doing things I want to do.", false),
+                        ("I am satisfied with my present comfort level.", false),
+                        ("I am able to feel like a man.", true),
+                        ("I have trouble moving my bowels.", false),
+                        ("I have difficulty urinating.", false),
+                        ("I urinate more frequently than usual.", false),
+                        ("My problems with urinating limit my activities.",false),
+                        ("I am able to have and maintain an erection.", true)]
     
     let statementChoices = [
         ORKTextChoice(text: "Not at all", value: 0 as NSNumber),
@@ -50,10 +52,10 @@ public var SideEffectSurveyTask: ORKOrderedTask {
         let seStep = ORKQuestionStep(identifier:statementIdentifier)
         
         seStep.answerFormat = statementAnswerFormat
-        seStep.title = statement
+        seStep.title = statement.0
         
         
-        seStep.isOptional = false
+        seStep.isOptional = statement.1
         
         steps += [seStep]
     }

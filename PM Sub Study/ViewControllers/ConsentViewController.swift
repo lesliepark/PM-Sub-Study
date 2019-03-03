@@ -18,6 +18,9 @@ class ConsentViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         //        var isConsented : Bool = false
         self.store = RSStore()
+        let taskViewController = ORKTaskViewController(task: ConsentTask, taskRun: nil)
+        taskViewController.delegate = self as ORKTaskViewControllerDelegate
+        present(taskViewController, animated: true, completion: nil)
         //        if (self.store.valueInState(forKey: "isConsented") != nil) {
         //            isConsented = self.store.valueInState(forKey: "isConsented") as! Bool
         //        }

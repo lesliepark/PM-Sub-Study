@@ -19,7 +19,7 @@ class OnboardingViewController: UIViewController {
         
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
         
-        var isEligible = false
+        var isEligible = true
         var isConsented = false
         var hasSetGeofence = false
         var hasSetSurvey = false

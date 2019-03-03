@@ -37,7 +37,9 @@ public var SetSurveyTimeTask: ORKOrderedTask {
     standardSurveyTimeStep.text = "Please select the ideal day and time to take this BI-WEEKLY survey."
     
     let ssWeekday = ORKFormItem(identifier:"ssWeekday", text:"Enter day of week", answerFormat: weekdayAnswerFormat)
+    ssWeekday.isOptional = false
     let ssTime = ORKFormItem(identifier:"ssTime", text:"Enter time of day", answerFormat: timeAnswerFormat)
+    ssTime.isOptional = false
     standardSurveyTimeStep.formItems = [ssTime, ssWeekday]
     standardSurveyTimeStep.isOptional = false
     steps += [standardSurveyTimeStep]
@@ -49,8 +51,9 @@ public var SetSurveyTimeTask: ORKOrderedTask {
     wellBeingSurveyTime.text = "Place select the ideal day and time to take this WEEKLY survey"
     
     let wbWeekday = ORKFormItem(identifier: "wbWeekday", text: "Enter day of week", answerFormat: weekdayAnswerFormat)
+    wbWeekday.isOptional = false
     let wbTime = ORKFormItem(identifier: "wbTime", text:"Enter time of day", answerFormat: timeAnswerFormat)
-    
+    wbTime.isOptional = false
     wellBeingSurveyTime.formItems = [wbTime, wbWeekday]
     wellBeingSurveyTime.isOptional = false
     steps += [wellBeingSurveyTime]

@@ -10,8 +10,8 @@
             {
                 "identifier": "logIn",
                 "type": "LS2Login",
-                "title": "Sign In",
-                "text": "Please enter your study credentials to sign in.  If you've forgotten your credentials, please email Noah Greco at nog9013@med.cornell.edu"
+                "title": "Log In",
+                "text": "Please enter your study credentials to log in.  If you've forgotten your credentials, please email Noah Greco at nog9013@med.cornell.edu"
             }
         ]
     },

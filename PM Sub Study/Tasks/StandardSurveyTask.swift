@@ -107,7 +107,8 @@ public var StandardSurveyTask: ORKNavigableOrderedTask {
         ORKTextChoice(text: "Scans", value: "Scans" as NSString),
         ORKTextChoice(text: "Biopsy", value: "Biopsy" as NSString),
         ORKTextChoice(text: "Cancer-Related Surgery", value: "Cancer-Related Surgery" as NSString),
-        ORKTextChoice(text: "Other surgery", value: "Other surgery" as NSString)
+        ORKTextChoice(text: "Other surgery", value: "Other surgery" as NSString),
+        ORKTextChoice(text: "None", value: "None" as NSString)
         
     ]
     let procedureAnswerFormat: ORKTextChoiceAnswerFormat = ORKAnswerFormat.choiceAnswerFormat(with: .multipleChoice, textChoices: procedureTextChoices)
@@ -128,6 +129,7 @@ public var StandardSurveyTask: ORKNavigableOrderedTask {
         ORKTextChoice(text: "Progression of disease", value: "Progression of disease" as NSString),
         ORKTextChoice(text: "Diagnosis of secondary malignancy", value: "Diagnosis of secondary malignancy" as NSString),
         ORKTextChoice(text: "Other significant cancer-related event (ex: PSA rise)", value: "Other significant cancer-related event" as NSString),
+        ORKTextChoice(text: "None", value: "None" as NSString)
         
         ]
     let eventsAnswerFormat: ORKTextChoiceAnswerFormat = ORKAnswerFormat.choiceAnswerFormat(with: .multipleChoice, textChoices: eventsTextChoices)
