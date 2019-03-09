@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.729244"
+            timestampString = "573788902.2722909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.729645"
+            timestampString = "573788902.272613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.72973"
+            timestampString = "573788902.272678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "224"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.729785"
+            timestampString = "573788902.272735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.7298369"
+            timestampString = "573788902.272789"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "150"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.72989"
+            timestampString = "573788902.272843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "162"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.729942"
+            timestampString = "573788902.2728961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "185"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.730004"
+            timestampString = "573788902.272949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.7300659"
+            timestampString = "573788902.273"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.730116"
+            timestampString = "573788902.273051"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "185"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.730166"
+            timestampString = "573788902.273102"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.730213"
+            timestampString = "573788902.27315"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "185"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PM Sub Study/ViewControllers/HomeViewController.swift"
-            timestampString = "573328081.730261"
+            timestampString = "573788902.273198"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "228"
@@ -266,7 +266,7 @@
                   moduleName = "LS2SDK"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/Pods/LS2SDK/Source/RSRPSupport/LS2BackEnd.swift"
-                  timestampString = "573327089.939411"
+                  timestampString = "573787126.621062"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
@@ -281,7 +281,7 @@
                   moduleName = "LS2SDK"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/Pods/LS2SDK/Source/RSRPSupport/LS2BackEnd.swift"
-                  timestampString = "573327089.9414231"
+                  timestampString = "573787126.62453"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
@@ -294,11 +294,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/LS2SDK/Source/Core/LS2Manager.swift"
-            timestampString = "573328081.7304699"
+            timestampString = "573783750.169588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "405"
@@ -314,7 +314,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/LS2SDK/Source/Core/LS2Manager.swift"
-            timestampString = "573328081.731028"
+            timestampString = "573783750.171791"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "373"
@@ -330,7 +330,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/LS2SDK/Source/Core/LS2Manager.swift"
-            timestampString = "573328081.731094"
+            timestampString = "573783750.172038"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "386"
@@ -342,11 +342,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/LS2SDK/Source/Core/LS2Manager.swift"
-            timestampString = "573328081.731141"
+            timestampString = "573783750.172336"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "420"
@@ -355,14 +355,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "LS2SDK.LS2Manager.(upload in _AEB29FBAB256B65B17A80EDB6C918313)(fromMemory: Swift.Bool) -&gt; ()"
                   moduleName = "LS2SDK"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/Pods/LS2SDK/Source/Core/LS2Manager.swift"
-                  timestampString = "573327344.7129509"
+                  timestampString = "573785792.233929"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "420"
@@ -370,14 +370,14 @@
                   offsetFromSymbolStart = "43">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in LS2SDK.LS2Manager.(upload in _AEB29FBAB256B65B17A80EDB6C918313)(fromMemory: Swift.Bool) -&gt; ()"
                   moduleName = "LS2SDK"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/Pods/LS2SDK/Source/Core/LS2Manager.swift"
-                  timestampString = "573327344.715004"
+                  timestampString = "573785792.2372251"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "422"
@@ -385,6 +385,150 @@
                   offsetFromSymbolStart = "78">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/LocationManager.swift"
+            timestampString = "573785791.6856821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "home"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/LocationManager.swift"
+            timestampString = "573785791.685925"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "locationManager(_:didExitRegion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/NotificationsManager.swift"
+            timestampString = "573788902.273437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "createNotification(fireDate:notificationBody:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/LocationManager.swift"
+            timestampString = "573785862.790597"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "home"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PM_Sub_Study.LocationManager.home.setter : Swift.Optional&lt;__C.CLLocationCoordinate2D&gt;"
+                  moduleName = "PM Sub Study"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/PM%20Sub%20Study/StateManagers/LocationManager.swift"
+                  timestampString = "573787126.285036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PM_Sub_Study.LocationManager.home.setter : Swift.Optional&lt;__C.CLLocationCoordinate2D&gt;"
+                  moduleName = "PM Sub Study"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/travisallen/Desktop/CornellTech/Q3/Precision_Medicine_Project/PM%20Sub%20Study/PM%20Sub%20Study/StateManagers/LocationManager.swift"
+                  timestampString = "573787126.287176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/ViewControllers/SurveyTimesViewController.swift"
+            timestampString = "573788902.273802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "taskViewController(_:didFinishWith:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/SurveyTimesManager.swift"
+            timestampString = "573788902.274079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "sideEffectTime"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PM Sub Study/StateManagers/SurveyTimesManager.swift"
+            timestampString = "573788902.274735"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "sideEffectTime"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

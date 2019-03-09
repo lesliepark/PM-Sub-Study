@@ -58,8 +58,8 @@ class SurveyTimesManager {
             fireDate.hour = hour
             fireDate.minute = minutes
             fireDate.weekday = weekday
-            let notificationBody = "It's time to take your Bi-Weekly Standardized Survey!"
-            self.notificationMgr.createNotification(fireDate: fireDate, notificationBody: notificationBody)
+            //let notificationBody = "It's time to take your Bi-Weekly Standardized Survey!"
+            //self.notificationMgr.createNotification(fireDate: fireDate, notificationBody: notificationBody)
         }
     }
     
@@ -104,8 +104,8 @@ class SurveyTimesManager {
             fireDate.hour = hour
             fireDate.minute = minutes
             fireDate.weekday = weekday
-            let notificationBody = "It's time to take your Weekly Well-Being Survey!"
-            self.notificationMgr.createNotification(fireDate: fireDate, notificationBody: notificationBody)
+            //let notificationBody = "It's time to take your Weekly Well-Being Survey!"
+            //self.notificationMgr.createNotification(fireDate: fireDate, notificationBody: notificationBody)
         }
     }
     
@@ -148,7 +148,7 @@ class SurveyTimesManager {
             fireDate.hour = hour
             fireDate.minute = minutes
             
-            let notificationBody = "It's time to take your Daily Side Effects Survey"
+            let notificationBody = "You have a new survey to take"
             self.notificationMgr.createNotification(fireDate: fireDate, notificationBody: notificationBody)
         }
     }

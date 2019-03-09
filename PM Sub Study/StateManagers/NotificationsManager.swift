@@ -24,12 +24,19 @@ class NotificationsManager {
             content.body = notificationBody
             content.sound = UNNotificationSound.default
             
-            let trigger = UNCalendarNotificationTrigger(dateMatching: fireDate as DateComponents,
+            //making this specific to the daily notification, such that it only has hour and minute
+            var date = DateComponents()
+            date.hour = fireDate.hour
+            date.minute = fireDate.minute
+//            date.second = 20
+            let trigger = UNCalendarNotificationTrigger(dateMatching: date,
                                                         repeats: true)
             
             let identifier = "UYLLocalNotification"
             let request = UNNotificationRequest(identifier: identifier,
                                                 content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
             
             let appDelegate = UIApplication.shared.delegate as? AppDelegate
             appDelegate?.center.add(request, withCompletionHandler: { (error) in

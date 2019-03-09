@@ -13,7 +13,7 @@ public var SetSurveyTimeTask: ORKOrderedTask {
     var steps = [ORKStep]()
     let instructionStep = ORKInstructionStep(identifier: "IntroStep")
     instructionStep.title = "Set Survey Times"
-    instructionStep.text = "Please enter the preferred times you'd like to receive notifications for the surveys involved in this study"
+    instructionStep.text = "Please enter the preferred time you'd like to take the surveys involved in this study"
     steps += [instructionStep]
     
     //These answer formats will be used across all 3 steps
