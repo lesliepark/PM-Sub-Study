@@ -85,28 +85,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvN-kl-c3X">
-                                <rect key="frame" x="90" y="162" width="194" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change Geofence Locations"/>
-                                <connections>
-                                    <action selector="geoChangeTapped:" destination="KBE-uy-9wQ" eventType="touchUpInside" id="3i2-xi-7IN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXI-RO-sLV">
-                                <rect key="frame" x="112" y="218" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change Survey Times"/>
-                                <connections>
-                                    <action selector="timeChangeTapped:" destination="KBE-uy-9wQ" eventType="touchUpInside" id="g4c-bk-806"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph3-yy-MeK">
                                 <rect key="frame" x="160" y="274" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
                                     <action selector="signOutTapped:" destination="KBE-uy-9wQ" eventType="touchUpInside" id="YXM-zx-6RO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvN-kl-c3X">
+                                <rect key="frame" x="90" y="202" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Geofence Locations"/>
+                                <connections>
+                                    <action selector="geoChangeTapped:" destination="KBE-uy-9wQ" eventType="touchUpInside" id="3i2-xi-7IN"/>
                                 </connections>
                             </button>
                         </subviews>
