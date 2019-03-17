@@ -17,10 +17,12 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     var initialHome = false
     var initialWork = false
     var initialHospital = false
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
     
     static let radius = 150.0
     
     override public init() {
+        
         self.store = RSStore()
         self.locationManager = CLLocationManager()
         
@@ -39,12 +41,30 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         //self.recordEvent(regionIdentifier: region.identifier, action: .enter)
         //create logical location result-type of object (from ANC)
         //Add LS2 Datapoint
-        print("You are entering \(region.identifier)")
+        
+        //create logical result, have it adhere to the lS2 datapoint convertible protocol, get reference to the app delegate LS2 Manager, addDatapoint?
+        self.recordEvent(regionIdentifier: region.identifier, action: "enter")
     }
     
     func locationManager(_ manager: CLLocationManager, didExitRegion region:CLRegion){
-        //self.recordEvent(regionIdentifier: region.identifier, action: .exit)
-        print("You are exiting \(region.identifier)")
+        self.recordEvent(regionIdentifier: region.identifier, action: "exit")
+    }
+    
+    func recordEvent(regionIdentifier: String, action: String) {
+        print("You are \(action)ing \(regionIdentifier)")
+        let logicalLocationResult = LogicalLocationResult(
+            uuid: UUID(),
+            taskIdentifier: "ANCLocationManager",
+            taskRunUUID: UUID(),
+            locationName: regionIdentifier,
+            action: LogicalLocationResult.Action(rawValue: action)!,
+            eventTimestamp: Date()
+        )
+        
+        appDelegate?.ls2Manager.addDatapoint(datapointConvertible: logicalLocationResult, completion: { (error) in
+
+        })
+        
     }
     
     var _home: CLLocationCoordinate2D? = nil

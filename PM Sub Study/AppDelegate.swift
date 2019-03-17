@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var ls2Manager: LS2Manager!
     var ls2Backend: LS2BackEnd!
     var sqMgr: SurveyQueueManager!
+    var locMgr: LocationManager!
     
     //    var store: RSCredentialsStore!
     
@@ -152,6 +153,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         self.showViewController(animated: false)
         
         self.sqMgr = SurveyQueueManager()
+        
+        self.locMgr = LocationManager()
         
         self.sqMgr.updateSurveyQueue() //make sure it's up to date
         
