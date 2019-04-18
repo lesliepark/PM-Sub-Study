@@ -3,7 +3,7 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "BoringLogo 40x40.png",
+      "filename" : "NotifcationIcon40.jpg",
       "scale" : "2x"
     },
     {
@@ -14,7 +14,7 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "BoringLogo58x58.png",
+      "filename" : "SettingsIcon58.jpg",
       "scale" : "2x"
     },
     {
@@ -25,7 +25,7 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "BoringLogo copy80x80.png",
+      "filename" : "SpotlightIcon80.jpg",
       "scale" : "2x"
     },
     {
@@ -36,7 +36,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "BoringLogo copy120x120.png",
+      "filename" : "PhoneIcon120.jpg",
       "scale" : "2x"
     },
     {
@@ -98,7 +98,7 @@
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "BoringLogo1024x1024.png",
+      "filename" : "AppStoreIcon.jpg",
       "scale" : "1x"
     }
   ],

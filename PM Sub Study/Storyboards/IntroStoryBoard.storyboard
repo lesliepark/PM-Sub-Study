@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Research for Precision Medicine Study" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSq-H8-gSc">
-                                <rect key="frame" x="-64" y="238" width="503" height="89"/>
+                                <rect key="frame" x="-64" y="236" width="503" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -56,6 +56,10 @@
                                     <segue destination="gdV-z9-shf" kind="show" id="Ehr-YJ-XwW"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WCM_MB_LOGO_HZSS1L_CLR_RGB" translatesAutoresizingMaskIntoConstraints="NO" id="69P-my-8f6">
+                                <rect key="frame" x="108" y="381" width="158" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A0X-AC-NW4"/>
@@ -89,7 +93,7 @@
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" adjustable="YES"/>
                                         </accessibility>
-                                        <mutableString key="text">This is the mobile app for the "Mobile Data Sub-Study"
+                                        <string key="text">This is the mobile app for the "Mobile Data Sub-Study"
 
 The purpose of this study is to understand whether using a mobile health application to collect patient-centric data will help patients and physicians to check the accuracy of patients’ reporting, to better evaluate performance status, and to track changes in treatment and care. We aim to explore new methods for monitoring and measuring patients’ performance status, changes in clinical status and treatment across providers, and outcomes. These new methods include both prospective collection of Patient Reported Outcomes (PROs), deployed via mobile devices, and retrospective data collection deployed via patient-shared digital histories.
 
@@ -103,7 +107,7 @@ The secondary objective(s) of this study include:
 The exploratory objective(s) of this study include:
 - Correlating genomic data with the comprehensive clinical data collected (e.g., treatment responses, toxicity, outcomes)
 
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -140,6 +144,7 @@ The exploratory objective(s) of this study include:
         </scene>
     </scenes>
     <resources>
+        <image name="WCM_MB_LOGO_HZSS1L_CLR_RGB" width="1023.75" height="210"/>
         <image name="bridge_bgrnd" width="604" height="461"/>
     </resources>
 </document>

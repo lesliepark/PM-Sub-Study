@@ -154,7 +154,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         self.sqMgr = SurveyQueueManager()
         
-        self.locMgr = LocationManager()
+        self.locMgr = LocationManager() 
         
         self.sqMgr.updateSurveyQueue() //make sure it's up to date
         
